@@ -1,0 +1,13 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.10.0+cu113
+-f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.11.1+cu113
+gym==0.18.0
+numpy==1.21.4
+-f https://github.com/Kojoley/atari-py/releases atari_py
+atari_py
+Box2D==2.3.10
+gym-super-mario-bros==7.3.2
+matplotlib==3.4.2
+highway-env==1.4
+pybullet==3.2.0
