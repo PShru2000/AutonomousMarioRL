@@ -39,3 +39,29 @@ This implementation enhances the standard DQN by using two networks to reduce ov
 
 PPO+GAE combines the PPO algorithm with GAE for efficient and effective training. It features an actor-critic model where the actor selects actions and the critic evaluates their potential reward. PPO ensures stable policy updates through policy clipping, while GAE provides a more accurate estimation of action advantages, facilitating a balanced exploration-exploitation trade-off and improving agent performance over time.
 
+
+
+# Result Analysis
+
+**A. Policy Gradient Analysis:**
+
+The policy gradient method showed a quick understanding of the game's dynamics, as seen in the rapid increase in average rewards over the first 1000 episodes. This initial success plateaued as the method fine-tuned its strategies to deal with more complex scenarios. The gap between average and peak rewards suggests room for improvement in specific game situations.
+
+**B. Double Deep Q-Network Analysis:**
+
+The DDQN method demonstrated consistent learning progress, with a steady rise in average rewards and occasional peaks indicating the potential for excellent performance. The persistent variance between average and maximum rewards indicates opportunities for optimization to achieve more consistent high performances.
+
+**C. Proximal Policy Optimization with Generalized Advantage Estimation Analysis:**
+
+PPO-GAE showed remarkable efficiency, with a steep increase in average rewards early on and a stable growth thereafter. It achieved significantly high rewards in a relatively short amount of training, highlighting its effectiveness in the Super Mario Bros. environment.
+
+
+## Conclusion
+
+In our comparative analysis of reinforcement learning strategies for Super Mario Bros., Proximal Policy Optimization with Generalized Advantage Estimation (PPO-GAE) emerged as the leading approach. It significantly outperformed Policy Gradient and Double Deep Q-Network (DDQN) methods in several key aspects:
+
+
+- **Learning Speed:** PPO-GAE achieved notable average rewards much faster, showing a steep learning curve within the first 1000 episodes.
+- **Performance:** It attained the highest average and peak rewards, demonstrating its superior capability in mastering the game's complexities.
+- **Time Efficiency:** PPO-GAE reached optimal performance levels quicker than its counterparts, making it the most time-efficient algorithm in our study.
+- **Computational Resource Utilization:** The algorithm's effective use of computational resources highlights its suitability for complex gaming scenarios, advocating for rapid strategy development.
