@@ -23,8 +23,6 @@ Created a virtual environment and installed gym-super-mario-bros with **pip inst
 
 ## Algorithms implemented
 
-### B. Algorithm Implementations
-
 #### 1) Policy Gradient
 
 This method uses a neural network with convolutional and linear layers to learn the optimal policy for playing Super Mario Bros. The network outputs action probabilities, and training involves episodes where actions are sampled according to the policy and associated with rewards. The model updates focus on encouraging actions leading to higher rewards, using a policy gradient update rule. Training visualization includes plotting the mean reward per batch to monitor learning progress.
